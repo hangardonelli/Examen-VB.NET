@@ -1,0 +1,113 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+examen
+</name>
+</assembly>
+<members>
+<member name="T:examen.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:examen.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:examen.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:examen.Funcionalidades.IniciarCreadorDeClientes">
+ <summary>
+ Iniciador.
+  'Ejecuta Inputboxs en donde se le hace escribir al usuario los datos del cliente y los crea
+ </summary>
+</member>
+<member name="M:examen.Funcionalidades.IniciarCreadorDeProductos">
+ <summary>
+ Iniciador.
+  'Ejecuta Inputboxs en donde se le hace escribir al usuario los datos del producto y lo crea
+ </summary>
+</member>
+<member name="M:examen.Funcionalidades.DevolverCategoriaPorID(System.Int32)">
+ <summary>
+ Devuelve una categoría de auto al introducirle su ID
+ </summary>
+ <param name="id">Un entero que representa al id</param>
+ <returns>Un Enum de tipo Productos.Categoria</returns>
+</member>
+<member name="M:examen.Funcionalidades.DevolverProductoSiExiste">
+ <summary>
+ Hace al usuario introducir el id de un producto y lo devuelve.
+ </summary>
+ <returns>Un producto, en caso de que exista el producto con dicho ID. De lo contrario, Nothing</returns>
+</member>
+<member name="M:examen.Funcionalidades.DevolverClienteSiExiste">
+ <summary>
+ Hace al usuario introducir el id de un cliente y lo devuelve.
+ </summary>
+ <returns>Un cliente, en caso de que exista el cliente con dicho ID. De lo contrario, Nothing</returns>
+</member>
+<member name="M:examen.Funcionalidades.DevolverVentaSiExiste">
+ <summary>
+ Hace al usuario introducir el id de una venta y lo devuelve.
+ </summary>
+ <returns>Una venta, en caso de que exista la venta con dicho ID. De lo contrario, Nothing</returns>
+</member>
+<member name="M:examen.IComponentes.Modificar">
+ <summary>
+ Modifica un componente de una clase Cliente/Venta/Producto
+ </summary>
+</member>
+<member name="M:examen.IComponentes.Eliminar">
+ <summary>
+  Elimina un componente de una clase Cliente/Venta/Producto
+ </summary>
+</member>
+<member name="M:examen.IComponentes.Crear">
+ <summary>
+  Crea un componente de una clase Cliente/Venta/Producto
+ </summary>
+</member>
+<member name="M:examen.DBSubs.DbConnection">
+ <summary>
+ Devuelve la conexión de la base de datos
+ </summary>
+ <returns>Un SqlConnection que representa la conexión</returns>
+</member>
+<member name="M:examen.DBSubs.DbQueryAsDataTable(System.String)">
+ <summary>
+ Dada una consulta T-SQL a la base de datos, devuelve el resultado de la consulta como DataTable
+ </summary>
+ <param name="query">La consulta T-SQL</param>
+ <returns>Un DataTable, donde se almacena la consulta</returns>
+</member>
+<member name="M:examen.DBSubs.DbQuery(System.String)">
+ <summary>
+ Ejecuta una consulta T-SQL y devuelve las columnas afectadas
+ </summary>
+ <param name="query">La consulta T-SQL</param>
+ <returns>Un entero, que denota la cantidad de filas afectadas</returns>
+</member>
+<member name="M:examen.DBSubs.DbQueryAsValue(System.String)">
+ <summary>
+ Devuelve la primer columna de la primer fila de una consulta T-SQL
+ </summary>
+ <param name="query">Una consulta T-SQL</param>
+ <returns>Un objeto, que es el valor de la primer columna de la primera fila.</returns>
+</member>
+<member name="M:examen.NuevaVenta.RecargarPreciosTotales">
+ <summary>
+ Funcion que obtiene los precios totales de todos los elementos del carrito
+ </summary>
+ <returns>Long sin signo, que denota el precio total</returns>
+ Aclaración: Utilicé ULong y no entero, en primer lugar porque un precio no va a tener valor negativo _
+ y en segundo, porque si se llegase a producir una compra exorbital un int capaz hace overflow
+</member>
+</members>
+</doc>

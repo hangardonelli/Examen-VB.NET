@@ -1,0 +1,15 @@
+C:\Users\Usuario\source\repos\examen\examen\bin\Debug\pruebademo.mdf
+C:\Users\Usuario\source\repos\examen\examen\bin\Debug\pruebademo_log.ldf
+C:\Users\Usuario\source\repos\examen\examen\bin\Debug\examen.exe.config
+C:\Users\Usuario\source\repos\examen\examen\bin\Debug\examen.exe
+C:\Users\Usuario\source\repos\examen\examen\bin\Debug\examen.pdb
+C:\Users\Usuario\source\repos\examen\examen\bin\Debug\examen.xml
+C:\Users\Usuario\source\repos\examen\examen\obj\Debug\examen.vbprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\examen\examen\obj\Debug\examen.Form1.resources
+C:\Users\Usuario\source\repos\examen\examen\obj\Debug\examen.Resources.resources
+C:\Users\Usuario\source\repos\examen\examen\obj\Debug\examen.vbproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\examen\examen\obj\Debug\examen.vbproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\examen\examen\obj\Debug\examen.exe
+C:\Users\Usuario\source\repos\examen\examen\obj\Debug\examen.xml
+C:\Users\Usuario\source\repos\examen\examen\obj\Debug\examen.pdb
+C:\Users\Usuario\source\repos\examen\examen\obj\Debug\examen.NuevaVenta.resources
